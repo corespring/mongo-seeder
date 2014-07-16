@@ -13,7 +13,9 @@ Seed your mongo dbs.
 # Usage
 
     var seeder = require('mongo-seeder');
-    seeder(mongoUri, pathToSeedData);
+    seeder(mongoUri, pathToSeedData, function(err){
+      console.log('done');
+    });
 
 
 # Content formats
@@ -25,7 +27,7 @@ The content should laid out like so:
         1.json
         2.json.ejs
       collection-two/
-        list.json
+        list.json <<-------- not ready yet
       collection-three/
         document-per-line.json
 
