@@ -1,6 +1,12 @@
 {
   "name" : "mongo-seeder",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "http://github.com/corespring/mongo-seeder.git"
+  },
+  "homepage" : "http://github.com/corespring/mongo-seeder",
+  "license" : "MIT",
   "description" : "Util for seeding your mongo db",
   "dependencies" : {
     "mongodb" : "~1.4.7",
